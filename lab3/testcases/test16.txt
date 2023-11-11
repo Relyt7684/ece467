@@ -1,0 +1,10 @@
+void main(){
+    int x;
+    int y;
+    int z[10];
+    bool a;
+    bool b;
+    z[x+y];
+    z[true];
+    z = a;
+}

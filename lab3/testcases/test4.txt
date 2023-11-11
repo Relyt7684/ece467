@@ -1,0 +1,9 @@
+int x;
+int main(){
+    int x[1];
+    {
+        bool x;
+        if(x == true) x = true;
+    }
+    return 0;
+}

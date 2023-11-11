@@ -1,0 +1,70 @@
+#include "scio.h"
+int x;
+int x; // re-definition
+
+void helper1(int x, int y);
+void helper2(int x, bool y);
+
+int main() {
+   bool w;
+   bool w; // re-definition
+
+   int a[10];
+   int a[11]; // re-definition
+
+   int x;
+   int k;
+   bool t;
+   bool y;
+   bool z;
+
+   int b[-1]; // invalid array size
+
+   ab = -3; // undefined variable
+   w = c; // undefined variable
+
+   fcn2(); // undefined function
+
+   // Operand mismatch
+   x + t; // operand mismatch
+   t < x; // operand mismatch
+   t == true;
+   t = false;
+   t = 5; // operand mismatch
+
+   // Call mismatch
+   helper1(w);
+   helper2(w,z);
+
+   if (x) return -1; // If condition
+
+   while (x) {} // while condition
+   while (y) {}
+   while (1) {} // while condition
+   while (y!=z) {}
+
+   k = a; // invalid use of a
+   x = k[4]; // Invalid use of k
+   return z; // return mismatch
+}
+
+//The semantic analyzer produces the following output for this example input:
+//sema: 3:0 : redefinition of x
+//sema: 10:3 : redefinition of w
+//sema: 13:3 : redefinition of a
+//sema: 21:3 : size cannot be negative for array b
+//sema: 23:3 : use of undefined identifier ab
+//sema: 24:7 : use of undefined identifier c
+//sema: 24:3 : type mismatch
+//sema: 26:3 : use of undefined identifier fcn2
+//sema: 29:3 : type mismatch
+//sema: 30:3 : type mismatch
+//sema: 33:3 : type mismatch
+//sema: 36:3 : no matching definition for helper1
+//sema: 37:3 : no matching definition for helper2
+//sema: 39:3 : invalid condition in if statement
+//sema: 41:3 : invalid condition in while statement
+//sema: 43:3 : invalid condition in while statement
+//sema: 46:7 : invalid use of identifier a
+//sema: 47:7 : invalid use of identifier k
+//sema: 49:3 : mismatched return statement

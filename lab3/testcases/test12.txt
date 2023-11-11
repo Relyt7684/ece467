@@ -1,0 +1,27 @@
+#include "scio.h"
+void main(int s, bool y, bool z[]){
+
+}
+void writeBool(bool b);
+void writeBool(bool b);
+void writeBool(bool b){
+
+}
+void writeBool(bool b){
+
+}
+int abc();
+int abc();
+int abc(){
+    int x[-1];
+    int x[0];
+    int x[1];
+    int x[0];
+    int y;
+    bool y;
+    bool z[20];
+    bool w;
+    main(x, w, z[0]);
+    main(x[2], w, z);
+    return u*true+y;
+}

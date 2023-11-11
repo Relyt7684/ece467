@@ -1,0 +1,8 @@
+int main(){
+    int x;
+    int y;
+    bool a;
+    bool b;
+    if(x && y) 1+1;
+    if(a + b) 1+1;
+}

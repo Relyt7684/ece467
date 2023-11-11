@@ -1,0 +1,9 @@
+//Multiple function definitions with different parameters/returns
+void mybad(){
+   1+1;
+}
+void mybad();
+void mybad(){
+   2+2;
+}
+

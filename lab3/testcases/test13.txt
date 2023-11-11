@@ -1,0 +1,20 @@
+bool x;
+int main(){
+    int x;
+    while(1&&2){
+        if(1-2*3 == x){
+
+        }
+        else{
+            {
+                while(x+1 == 4) return x;
+            }
+        }
+        if(x){
+
+        }
+        else {
+            w / true;
+        }
+    }
+}

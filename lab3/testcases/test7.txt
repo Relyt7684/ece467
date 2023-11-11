@@ -1,0 +1,10 @@
+
+void abc(int x){
+
+}
+void abc();
+void abc(int x);
+void cc(){
+    abc(1);
+    abc();
+}

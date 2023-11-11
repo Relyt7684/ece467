@@ -1,0 +1,4 @@
+void mybad();
+void abc(){
+   mybad();
+}

@@ -1,0 +1,21 @@
+#include "scio.h"
+
+bool readBool(){
+
+}
+
+int readInt(){
+
+}
+
+void writeBool(bool b){
+
+}
+
+void writeInt(int i){
+    
+}
+
+void newLine(){
+
+}

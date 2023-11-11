@@ -1,0 +1,10 @@
+void abc(int x, bool y);
+int abc(int x, bool z){
+
+}
+int main(){
+    int x[-100];
+    int x;
+    bool y;
+    bc(x);
+}

@@ -1,0 +1,24 @@
+//int main();
+void main();
+void main();
+void main(int x[]){
+    a+1;
+    return a+1;
+    return 1 + true;
+    3+x;
+}
+int main(int x[]){
+    a+1;
+    return a+1;
+    return 1 + true;
+    3+x;
+}
+bool main(int x[]){
+    
+}
+void main(){
+    1+1;
+}
+int abc(){
+    main();
+}

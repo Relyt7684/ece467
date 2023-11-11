@@ -1,0 +1,17 @@
+int z;
+bool p(int y[]);
+
+
+bool p(int x) {
+    
+}
+
+int main() {
+    int x;
+    bool y;
+    k = (2) + true;
+
+    if (z == 0) return -1;
+    if (y) return 1;
+    return 0;
+}
