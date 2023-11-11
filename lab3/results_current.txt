@@ -1,0 +1,172 @@
+testcases/test10.txt
+sema: 4:0 : definition inconsistent with earlier definition of main
+sema: 5:4 : use of undefined identifier a
+sema: 5:4 : type mismatch 
+sema: 6:11 : use of undefined identifier a
+sema: 6:11 : type mismatch 
+sema: 6:4 : mismatched return statement 
+sema: 7:11 : type mismatch 
+sema: 7:4 : mismatched return statement 
+sema: 8:6 : invalid use of identifier x
+sema: 8:4 : type mismatch 
+sema: 10:0 : redefinition of main
+sema: 11:4 : use of undefined identifier a
+sema: 11:4 : type mismatch 
+sema: 12:11 : use of undefined identifier a
+sema: 12:11 : type mismatch 
+sema: 12:4 : mismatched return statement 
+sema: 13:11 : type mismatch 
+sema: 13:4 : mismatched return statement 
+sema: 14:6 : invalid use of identifier x
+sema: 14:4 : type mismatch 
+sema: 16:0 : redefinition of main
+sema: 19:0 : redefinition of main
+
+testcases/test11.txt
+sema: 3:0 : redefinition of x
+sema: 10:3 : redefinition of w
+sema: 13:3 : redefinition of a
+sema: 21:3 : size cannot be negative for array b
+sema: 23:3 : use of undefined identifier ab
+sema: 23:3 : type mismatch 
+sema: 24:7 : use of undefined identifier c
+sema: 24:3 : type mismatch 
+sema: 26:3 : use of undefined identifier fcn2
+sema: 29:3 : type mismatch 
+sema: 30:3 : type mismatch 
+sema: 33:3 : type mismatch 
+sema: 36:3 : no matching definition for helper1
+sema: 37:3 : no matching definition for helper2
+sema: 39:3 : invalid condition in if statement
+sema: 41:3 : invalid condition in while statement
+sema: 43:3 : invalid condition in while statement
+sema: 46:7 : invalid use of identifier a
+sema: 46:3 : type mismatch 
+sema: 47:7 : invalid use of identifier k
+sema: 47:3 : type mismatch 
+sema: 48:3 : mismatched return statement 
+
+testcases/test12.txt
+sema: 10:0 : redefinition of writeBool
+sema: 16:4 : size cannot be negative for array x
+sema: 17:4 : size cannot be negative for array x
+sema: 19:4 : redefinition of x
+sema: 21:4 : redefinition of y
+sema: 24:4 : no matching definition for main
+sema: 26:11 : use of undefined identifier u
+sema: 26:11 : type mismatch 
+sema: 26:11 : type mismatch 
+sema: 26:4 : mismatched return statement 
+
+testcases/test13.txt
+sema: 4:10 : type mismatch 
+sema: 17:12 : use of undefined identifier w
+sema: 17:12 : type mismatch 
+sema: 13:8 : invalid condition in if statement
+sema: 4:4 : invalid condition in while statement
+
+testcases/test14.txt
+
+testcases/test15.txt
+sema: 2:4 : mismatched return statement 
+sema: 3:11 : type mismatch 
+sema: 3:4 : mismatched return statement 
+
+testcases/test16.txt
+sema: 8:6 : type mismatch 
+sema: 9:4 : invalid use of identifier z
+sema: 9:4 : type mismatch 
+
+testcases/test17.txt
+sema: 5:0 : definition inconsistent with earlier definition of p
+sema: 12:4 : use of undefined identifier k
+sema: 12:8 : type mismatch 
+sema: 12:4 : type mismatch 
+
+testcases/test18.txt
+sema: 5:0 : definition inconsistent with earlier definition of p
+sema: 12:4 : redefinition of x
+sema: 13:4 : redefinition of x
+sema: 15:4 : use of undefined identifier k
+sema: 15:9 : type mismatch 
+sema: 15:22 : use of undefined identifier t
+sema: 15:22 : type mismatch 
+sema: 15:8 : type mismatch 
+sema: 15:4 : type mismatch 
+sema: 18:4 : invalid use of identifier ff
+sema: 18:4 : type mismatch 
+sema: 19:4 : use of undefined identifier cbs
+sema: 19:4 : type mismatch 
+sema: 20:4 : invalid use of identifier y
+sema: 20:4 : type mismatch 
+sema: 21:4 : invalid use of identifier x
+sema: 21:4 : type mismatch 
+sema: 22:4 : invalid use of identifier x
+sema: 22:4 : type mismatch 
+sema: 24:11 : use of undefined identifier zzh
+sema: 24:7 : type mismatch 
+sema: 24:7 : type mismatch 
+sema: 24:4 : type mismatch 
+sema: 25:13 : use of undefined identifier zzh
+sema: 25:9 : type mismatch 
+sema: 25:9 : type mismatch 
+sema: 25:4 : use of undefined identifier zfer
+sema: 25:4 : type mismatch 
+sema: 28:5 : use of undefined identifier t
+sema: 28:4 : type mismatch 
+sema: 30:8 : type mismatch 
+sema: 30:4 : type mismatch 
+sema: 33:6 : type mismatch 
+sema: 33:4 : invalid use of identifier x
+sema: 35:4 : type mismatch 
+sema: 37:11 : type mismatch 
+sema: 39:8 : redefinition of bb
+sema: 40:12 : type mismatch 
+sema: 43:12 : type mismatch 
+sema: 40:8 : invalid condition in if statement
+sema: 37:4 : invalid condition in while statement
+sema: 50:8 : type mismatch 
+sema: 51:15 : use of undefined identifier ps
+sema: 51:8 : mismatched return statement 
+sema: 55:8 : type mismatch 
+sema: 59:12 : use of undefined identifier jh
+sema: 59:8 : type mismatch 
+sema: 50:4 : invalid condition in if statement
+
+testcases/test1.txt
+sema: 5:0 : redefinition of mybad
+sema: 6:0 : redefinition of mybad
+
+testcases/test2.txt
+
+testcases/test3.txt
+
+testcases/test4.txt
+
+testcases/test5.txt
+
+testcases/test6.txt
+sema: 6:7 : type mismatch 
+sema: 6:4 : invalid condition in if statement
+sema: 7:7 : type mismatch 
+sema: 7:4 : invalid condition in if statement
+
+testcases/test7.txt
+sema: 5:0 : redefinition of abc
+sema: 6:0 : redefinition of abc
+sema: 9:4 : no matching definition for abc
+
+testcases/test8.txt
+sema: 2:0 : definition inconsistent with earlier definition of abc
+sema: 6:4 : size cannot be negative for array x
+sema: 9:4 : use of undefined identifier bc
+
+testcases/test9.txt
+sema: 3:7 : use of undefined identifier g
+sema: 3:7 : type mismatch 
+sema: 5:12 : use of undefined identifier y
+sema: 10:14 : use of undefined identifier g
+sema: 10:12 : type mismatch 
+sema: 9:8 : invalid condition in while statement
+sema: 3:4 : invalid condition in if statement
+
