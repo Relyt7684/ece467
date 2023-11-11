@@ -1,0 +1,63 @@
+int z;
+bool p(int y[]);
+
+
+bool p(int x) {
+    
+}
+
+int main() {
+    int x;
+    bool y;
+    int x;
+    int x[12];
+    int ff[12];
+    k = (2 + true) + (t + false);
+
+    ff[13] = 9;
+    ff + 1;
+    cbs[1] = false;
+    y[1] = false;
+    x[2] = 2;
+    x[-1] = 3;
+    ff[-3] = 4;
+    ff[x + zzh] = 5;
+    zfer[x + zzh] = 5;
+
+    z < 9;
+    !t;
+    x = -x;
+    x = -true;
+    y = (!false) && true;
+
+    x[false];
+
+    true + false;
+
+    while (z < true) {
+        int bb;
+        int bb;
+        if (x + true) {
+            int k;
+            int j;
+            j = true;
+        }
+    }
+
+    if (z == 0) return -1;
+    if (y) return 1;
+
+    if (z == true) {
+        return ps;
+    }
+    else if (true) {
+        bool k;
+        k = 1;
+        return 2;
+    }
+    else {
+        2 + jh;
+    }
+
+    return 0;
+}
