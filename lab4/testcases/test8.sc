@@ -1,5 +1,6 @@
 #include "scio.h"
 
+int global[10];
 
 void arrayInit(int arr[]){
     int i;
@@ -47,6 +48,8 @@ int main() {
     }
 
     arrayInit(test);
+    arrayInit(global);
+    writeInt(global[5]);
 
     writeInt(arrayPass(5 / 1, test));
 
