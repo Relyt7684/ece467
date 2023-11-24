@@ -6,7 +6,6 @@ int main() {
     x = 1;
     y = 3;
     z = 11;
-
     while (x < 5 && z != 1) {
         if (y < 5) {
             writeInt(y);

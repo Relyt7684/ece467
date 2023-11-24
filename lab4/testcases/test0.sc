@@ -46,6 +46,7 @@ void main(int a, int b[]) {
     func1(a,y[1]);
     func1(x,y[3]);
     func2(z,y);
+    func2(b,y);
 
     return;
 }
