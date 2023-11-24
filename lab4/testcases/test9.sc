@@ -1,16 +1,4 @@
 #include "scio.h"
-// Testing for global variables
-int x;
-bool y;
-int z[666];
-void abc();
-void abc(){
-    return;
-}
-int main(){
-    return 1;
-}
-
 int func0(){
     int i;
     i = 3;

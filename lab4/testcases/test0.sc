@@ -9,6 +9,9 @@ int b[2];
 bool c[5];
 
 int foo(int a);
+int foo(int a){
+    return 1;
+}
 
 int global;
 
